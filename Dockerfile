@@ -1,5 +1,6 @@
 # JRE base
-FROM openjdk:16-slim
+FROM openjdk:17-slim
+LABEL org.opencontainers.image.source https://github.com/rssnyder/papermc-lazymc-docker
 
 # Environment variables
 ENV MC_VERSION="latest" \
