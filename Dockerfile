@@ -11,7 +11,7 @@ ENV MC_VERSION="latest" \
 
 COPY papermc.sh .
 RUN apt-get update \
-    && apt-get install -y wget jq \
+    && apt install -y wget jq \
     && rm -rf /var/lib/apt/lists/* \
     && mkdir /papermc
 
