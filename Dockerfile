@@ -1,5 +1,5 @@
 # JRE base
-FROM openjdk:17-alpine
+FROM openjdk:17
 LABEL org.opencontainers.image.source https://github.com/rssnyder/papermc-lazymc-docker
 
 # Environment variables
